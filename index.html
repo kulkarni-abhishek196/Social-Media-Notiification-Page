@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Social Media Notification Page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <div class="notify-bar">
+      <h3>Notification <span id="total-notification" style="width: 15px; height: 15px; background-color: #0A327B; color: #FFFFFF; padding:2px; border-radius: 2px;">3</span></h3>
+      <button style="border: none; background: transparent" id="mark"><small class="names">Mark all as read</small></button>
+    </div>
+    <div class="new-notification">
+      <div class="image">
+        <img src="assets/images/avatar-mark-webber.webp" alt="">
+      </div>
+      <div class="notification-detail">
+        <p><b class="names">Mark Webber</b><span class="common-stats"> reacted to your recent post </span><span class="names" style="font-weight: 600">My first tournament today!</span></p>
+        <small class="time">1m ago</small>
+      </div>
+      <div class="new-note-update"></div>
+    </div>
+    <div class="new-notification">
+      <div class="image">
+        <img src="assets/images/avatar-angela-gray.webp" alt="">
+      </div>
+      <div class="notification-detail">
+        <p><b class="names">Angela Gray</b><span class="common-stats"> followed you</span></p>
+        <small class="time">5m ago</small>
+      </div>
+      <div class="new-note-update"></div>
+    </div>
+    <div class="new-notification">
+      <div class="image">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+      </div>
+      <div class="notification-detail">
+        <p><b class="names">Jacob Thompson</b><span class="common-stats"> has joined your group</span> <b class="names">Chess Club</b></p>
+        <small class="time">1day ago</small>
+      </div>
+      <div class="new-note-update"></div>
+    </div>
+    <div class="old-notification">
+      <div class="image">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+      </div>
+      <div class="notification-detail">
+        <p><b class="names">Rizky Hasanuddin</b> <span class="common-stats">sent you a private message</span></p>
+        <small class="time">5days ago</small>
+        <div class="chat-message"><p><span class="common-stats">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</span></p></div>
+      </div>
+    </div>
+    <div class="old-notification">
+      <div class="image">
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+      </div>
+      <div class="notification-detail">
+        <p><b class="names">Kimberly-smith</b> <span class="common-stats">commented on your picture</span></p>
+        <small class="time">1week ago</small>
+      </div>
+      <div class="image2">
+        <img src="assets/images/image-chess.webp" alt="">
+      </div>
+    </div>
+    <div class="old-notification">
+      <div class="image">
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+      </div>
+      <div class="notification-detail">
+        <p><b class="names">Nathan Peterson</b> <span class="common-stats">reacted to your recent post</span> <span class="names" style="font-weight: 600">5 end-game strategies to increase your win rate</span></p>
+        <small class="time">2weeks ago</small>
+      </div>
+    </div>
+    <div class="old-notification">
+      <div class="image">
+        <img src="assets/images/avatar-anna-kim.webp" alt="">
+      </div>
+      <div class="notification-detail">
+        <p><b class="names">Anna Kim</b> <span class="common-stats">left the group</span> <b class="names">Chess Club</b></p>
+        <small class="time">2weeks ago</small>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
